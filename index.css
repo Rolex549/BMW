@@ -1,0 +1,177 @@
+*{
+    margin:0%;
+    padding:0;
+    box-sizing:border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+
+#main{
+    display:flex;
+    width:100%;
+    height:100%;
+    background-image:url("https://bmw.scene7.com/is/image/BMW/g60_bev_mp_extra-container_ext-loop_dsk_fb_de?qlt=80&wid=1024&fmt=webp");
+    background-size:cover;
+}
+
+#head{
+    display:flex;
+    position:absolute;
+    width:90%;
+    height:15%;
+    color:white;
+    top:4%;
+    left:4%;
+}
+#head #logo{
+    position:relative;
+    top:0%;
+    left:0%;
+    width:5%;
+    height:65%;
+    background-image:url("https://www.bmw.in/content/dam/bmw/common/images/logo-icons/BMW/BMW_White_Logo.svg.asset.1670245093434.svg");
+    background-size:cover;
+}
+#topic {
+    font-style:"Britannic Bold";
+    allign-items:centre;
+    display:flex;
+    position:relative;
+    top:20%;
+    left:5%;
+    width:70%;
+    height:60%;
+    gap:20px;
+    color:white;
+}
+#topic h4{
+    space-between:3px;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+ #icons{
+    display:flex;
+    position:relative;
+    width:20%;
+    height:100%;
+}
+#i0{
+    width:25%;
+    height:100%;
+    padding: 23px 60px; 
+    
+}
+#i1{
+    width:25%;
+    height:100%;
+    padding: 23px 50px; 
+    
+}
+#i2{
+    width:33.3%;
+    height:100%;
+    padding: 23px 5px; 
+}
+#i3{
+    width:33.3%;
+    height:100%;
+    padding: 23px 30px;  
+}
+
+
+#line{
+    position:absolute;
+    width:90%;
+    height:1px;
+    background-color:#FFFFFF;
+    top:15%;
+    left:4%;
+}
+
+
+#safety{
+    font-family:"Arial";
+    position:absolute;
+    width:20%;
+    height:5%;
+    top:18%;
+    left:4%;
+    color:white;
+    
+}
+#safety h3{
+    font-size:200%;
+    font-weight:3px;
+}
+#para{
+    position:absolute;
+    width:50%;
+    height:40%;
+    top:40%;
+    left:5%;
+    color:white;
+}
+#para h3{
+    gap:20px;
+    font-size:100%;
+    font-weight:20px;
+    letter-spacing:2px;
+    font-style:bold;
+}
+
+#para p{
+    gap:1px;
+    font-weight:90px;
+    font-size:800%;
+}
+
+#electric{
+    display:flex;
+    position:absolute;
+    width:50%;
+    height:4%;
+    top:62%;
+    left:5%;
+    color:white;
+    
+}
+#electric #xy{
+    width:15%;
+    height:100%;
+    background-image:url("https://www.bmw.in/content/dam/bmw/common/images/logo-icons/BMW_M/BMW_M_100px.png.asset.1583225507175.png");
+    background-size:cover;
+}
+#electric #space{
+    width:2%;
+    height:100%;
+}
+#electric #matter{
+    width:85%;
+    height:100%;
+    gap:2px;
+    font-size:150%;
+}
+
+#xyz{
+    position:absolute;
+    top:68%;
+    left:5%;
+    width:10%;
+    height:5%;
+    background-color:blue;
+    color:white;
+    font-size: 18px;
+}
+.btn{
+    top:70%;
+    left:5%;
+    width:200px;
+    height:50px;
+    font-size:20px;
+    font-family:Britannic Bold;
+    background-color:#0653B6;
+    color:white;
+    border:0;
+}
